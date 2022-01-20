@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeamOS Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div>
+
+    
+    <nav class="nav">
+        <label class="toggle">
+            <i class="fa fa-bars"></i>
+        </label>
+        <!-- <div class="logo"><img src="Images/logo long dark.png" alt="logo"></div> -->
+     <div class="logo">
+        <img src="Images/hex.png">
+        <div class="ones"> 
+            <a>Team<span>OS</span></a>
+        </div>
+         </div>
+     
+        <ul>
+           <li><a href="#">Organizers</a></li>
+           <li><a href="#">TeamFinder</a></li>
+           <li><a href="#">Events</a></li>
+           <li><a href="#">Blogs</a></li>
+       </ul>
+       <div class="socialtop">
+           <div class="top-social">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+           </div>
+       </div>
+        
+    
+    </nav>
+    </div>
+
+    <!-- HOME PAGE -->
+     <!-- Image Slider -->
+     <div class="slider">
+         <input type="checkbox" name="slide" id="slide-1">
+         <input type="checkbox" name="slide" id="slide-2">
+         <input type="checkbox" name="slide" id="slide-3">
+
+        <div class="slides">
+            <div class="slide slide-1"></div>
+            <div class="slide slide-2"></div>
+            <div class="slide slide-3"></div>
+        </div>
+        <div class="arrows arrow-left">
+            <label for="slide-3">
+                <span><i class="fa-solid fa-angle-left"></i></i></span>
+            </label>
+            <label for="slide-1">
+                <span><i class="fa-solid fa-angle-left"></i></i></span>
+            </label>
+            <label for="slide-2">
+                <span><i class="fa-solid fa-angle-left"></i></i></span>
+            </label>
+
+        </div>
+        
+        <div class="arrows arrow-right">
+            <label for="slide-2">
+                <span><i class="fa-solid fa-angle-right"></i></span>
+            </label>
+            <label for="slide-3">
+                <span><i class="fa-solid fa-angle-right"></i></span>
+            </label>
+            <label for="slide-1">
+                <span><i class="fa-solid fa-angle-right"></i></span>
+            </label>
+
+        </div>
+
+
+    </div>
+
+    <div class="images">
+        <div class="one">
+            <img src="Images/Group 1274.png">
+        </div>
+
+        <div class="two">
+            <img src="Images/Group 1273.png">
+        </div>
+        <div class="three">
+            <img src="Images/Group 1272.png">
+        </div>
+
+    </div>
+   
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+        $('.toggle i').click(function () {
+            $('ul').toggleClass('show');
+        });
+    </script>
+    
+</body>
+</html>
